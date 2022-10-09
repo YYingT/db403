@@ -1,5 +1,19 @@
+<<<<<<< HEAD
 <h1>Northwind Categories</h1>
 <ul>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test DB</title>
+</head>
+<body>
+    <h1>Northwind Categories</h1>
+    <ul>
+>>>>>>> 8b65bd485404db9fce4d106b41c9b2696baaf4dc
 <?php
 $mysqli = new mysqli('db403-mysql', 'root', 'P@ssw0rd', 'northwind');
 $sql = 'select * from categories';
@@ -8,4 +22,10 @@ while($row = $result->fetch_assoc()) {
   echo '<li>'.$row['CategoryName'].'</li>';
 }
 ?>
+<<<<<<< HEAD
 </ul>
+=======
+    </ul>   
+</body>
+</html>
+>>>>>>> 8b65bd485404db9fce4d106b41c9b2696baaf4dc
